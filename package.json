@@ -1,0 +1,16 @@
+{
+  "name": "finance-tips",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yoshixmk/finance-tips",
+  "author": "yoshixmk",
+  "license": "MIT",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "pdf": "mdx-deck pdf deck.mdx"
+  },
+  "dependencies": {
+    "mdx-deck": "^2.1.4"
+  }
+}
