@@ -1,5 +1,12 @@
 export { dark as theme } from 'mdx-deck/themes'
 import NonControllingInterestFormula from './components/NonControllingInterestFormula.jsx'
+import {
+  Invert,
+  Split,
+  SplitRight,
+  Horizontal,
+  FullScreenCode,
+} from '@mdx-deck/layouts'
 
 # Finance Tips
 
@@ -51,11 +58,28 @@ ROE, ROA, 総資産経常利益率で使われている。時点ではなく、�
 
 ---
 
-## EPS（1株当たり利益）とは
+## EPS(1株当たり利益)とは
+
 - EPS（円） ＝ 当期純利益 ÷ 発行済株式総数
-- 計算式から分かるように、利益を上げる、もしくは、自社株買いをしても値が増加する。
+- 計算式から、利益を上げる、もしくは、自社株買いをして値が増加する。
+- 逆に、減益や増配によって減少。
 - 時系列調整EPS、潜在株式調整後EPS（新株予約権付社債という将来増加する可能性のある普通株式を含めたEPS)
-<img src="./eps.jpg" width="250" border="0"/>
+
+--- 
+
+<Split>
+
+<div>
+  <p>SPEEDA(財務>会社データ)</p>
+  <img src="./eps.jpg" width="250" border="0"/>
+</div>
+
+<div>
+  <p>有価証券報告書（抜粋）</p>
+  <img src="./yuho_eps.jpg" width="1500" border="0"/>
+</div>
+
+</Split>
 
 ---
 
